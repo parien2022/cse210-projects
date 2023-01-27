@@ -11,7 +11,7 @@ public class DisplayData
         }
     }
 
-
+//The program allows the user to save the data into a csv file
     public void SaveIntoFile (String fileName) {
         using (StreamWriter outputFile = new StreamWriter(fileName)){
             foreach(Entry item in entryList){
