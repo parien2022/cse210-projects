@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        SetText setText = new SetText();
+        Hide hide = new Hide();
+        Replace replace = new Replace();
+
+        hide.Split(setText.SetReference(), setText.SetScripture(), replace);
+
     }
 }
